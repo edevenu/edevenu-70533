@@ -10,18 +10,15 @@
 		border-collapse: 
 		collapse; border-spacing: 0; 
 	}
-
 	td, th 
 	{ 
 		border: 1px solid #CCC; height: 30px; 
 	} 
-
 	th 
 	{  
 		background: #F3F3F3; /* Light grey background */
 		font-weight: bold; /* Make sure they're bold */
 	}
-
 	td 
 	{  
 		background: #FAFAFA; /* Lighter grey background */
@@ -47,7 +44,7 @@
 					</tbody>
 					</thead>
 				</table>
-				<p style="background-color:#FF0000;foreground-color:#000000;"><?php echo "This value will be displayed only for devlopment slot :"; getenv("slotOnlyVar"); ?></p>
+				<p style="width:50%;background-color:#FF0000;foreground-color:#000000;"><?php echo getenv("slotOnlyVar"); ?></p>
 			</div>
 		</div>
 	</div>
