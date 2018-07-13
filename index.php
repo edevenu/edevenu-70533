@@ -43,6 +43,7 @@
 						<tr>
 							<td><?php echo getenv("Env"); ?> </td>
 							<td><?php echo getenv("slotMessage"); ?> </td>
+							<td><?php echo getenv("slotOnlyVar"); ?> </td>
 						</tr>
 					</tbody>
 					</thead>
