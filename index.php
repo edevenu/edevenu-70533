@@ -31,7 +31,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<h2>70-533 Microsoft Azure Infrastructre Exam</h2>
+				<h2>70-533 Microsoft Azure Infrastructre Exam Preperation</h2>
 				<p>This is demo page created for webapp</p>
 				<table style="width:50%">
 					<thead>
