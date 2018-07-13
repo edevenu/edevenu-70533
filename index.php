@@ -37,13 +37,11 @@
 					<thead>
 						<tr>
 							<th>Environment</th>
-							<th>Website Hostname</th>
 							<th>Message</th>
 						</tr>
 					<tbody>
 						<tr>
 							<td><?php echo getenv("Env"); ?> </td>
-							<td><?php echo getenv("WEBSITE_SITE_NAME"); ?> </td>
 							<td><?php echo getenv("slotMessage"); ?> </td>
 						</tr>
 					</tbody>
