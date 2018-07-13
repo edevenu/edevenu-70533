@@ -47,7 +47,7 @@
 					</tbody>
 					</thead>
 				</table>
-				<p style="background-color:#FF0000;foreground-color:#000000;"><?php echo "This value will be displayed only for devlopment slot :"; getenv("slotOnlyVar"); ?></p>
+				<p style="background-color:#FF0000;foreground-color:#000000;"><?php echo getenv("slotOnlyVar"); ?></p>
 			</div>
 		</div>
 	</div>
