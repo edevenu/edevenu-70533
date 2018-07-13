@@ -47,7 +47,7 @@
 					</tbody>
 					</thead>
 				</table>
-				<p><?php This value will be displayed only for devlopment slot : echo getenv("slotOnlyVar"); ?> </p>
+				<p><?php echo This value will be displayed only for devlopment slot : getenv("slotOnlyVar"); ?> </p>
 			</div>
 		</div>
 	</div>
