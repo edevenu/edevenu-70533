@@ -43,11 +43,11 @@
 						<tr>
 							<td><?php echo getenv("Env"); ?> </td>
 							<td><?php echo getenv("slotMessage"); ?> </td>
-							<td><?php echo getenv("slotOnlyVar"); ?> </td>
 						</tr>
 					</tbody>
 					</thead>
-				</table>	
+				</table>
+				<p>background: #000000;foreground: #FF0000;<?php This value will be displayed only for devlopment slot : echo getenv("slotOnlyVar"); ?> </p>
 			</div>
 		</div>
 	</div>
